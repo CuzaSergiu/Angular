@@ -46,7 +46,7 @@ export class SundayComponent implements OnInit {
     console.log();
     return true;
   }
-  //functie noua - parseStudent
+  //functie noua - parseStudent - cream o lista unde adaugam studenti;
   parseStudents(): void {
     const arrayOfStudents: Array<Student> = [];
     const student1 = new StudentOfSda("Sergiu", 30, "Cluj", [10, 9, 8, 7]);
