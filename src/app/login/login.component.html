@@ -1,0 +1,17 @@
+<p>login works!</p>
+
+<!-- Two way binding -->
+
+<label>User Name:</label><br>
+<input type="text" value="John" [(ngModel)]="userName"><br>
+
+<label>Password:</label><br>
+<input type="password" value="*" [(ngModel)]="password">
+<br><br>
+
+<!-- Verification button if user exist in DB  -->
+
+<button (click)="login()">Login</button>
+
+<p>{{userName}}</p>
+<p>{{password}}</p>
