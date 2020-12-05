@@ -8,6 +8,7 @@ import { ThuesdayComponent } from './thuesday/thuesday.component';
 import { WednesdayComponent } from './wednesday/wednesday.component';
 import { LoginComponent } from './login/login.component';
 import { FormsModule } from '@angular/forms';
+import { DirectivesComponent } from './directives/directives.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { FormsModule } from '@angular/forms';
     MondayComponent,
     ThuesdayComponent,
     WednesdayComponent,
-    LoginComponent
+    LoginComponent,
+    DirectivesComponent
   ],
   imports: [
     FormsModule,
